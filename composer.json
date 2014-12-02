@@ -1,0 +1,19 @@
+{
+    "name": "adrienbrussolo/mini-router",
+    "require": {
+        "symfony/yaml": "~3.0@dev"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "AdrianiBruss",
+            "email": "abrussolo@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    }
+}

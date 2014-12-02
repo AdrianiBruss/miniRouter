@@ -1,0 +1,3 @@
+BlogController_index:
+  pattern: /\/
+  connect: Controllers\BlogController:index

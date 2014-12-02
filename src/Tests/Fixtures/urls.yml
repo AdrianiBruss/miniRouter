@@ -1,0 +1,14 @@
+BlogController_index:
+  url: /
+BlogController_show:
+  url1: /php-tour-2015/1
+￼ url2: /mysql5/2
+￼ url3: /postgresql-2015/3
+BlogController_store:
+  url: /store/1
+BlogController_edit:
+  url: /edit/1
+CategoryController_show:
+  url1: /cat/php/2
+  url2: /cat/mysql/2
+  url3: /cat/vagrant/2

@@ -1,0 +1,19 @@
+BlogController_index:
+  pattern: \/
+  connect: Controllers\BlogController:index
+BlogController_show:
+  pattern: \/[a-zA-Z0-9\-_]+\/(?P<id>[1-9][0-9]*)
+  connect: Controllers\BlogController:show
+  params: id
+BlogController_store:
+  pattern: \/store\/(?P<id>[1-9][0-9]*)
+  connect: Controllers\BlogController:store
+  params: id
+BlogController_edit:
+  pattern: \/edit\/(?P<id>[1-9][0-9]*)
+  connect: Controllers\BlogController:edit
+  params: id
+CategoryController_show:
+  pattern: \/cat\/[a-zA-Z0-9\-_]+\/(?P<id>[1-9][0-9]*)
+  connect: Controllers\CategoryController:show
+  params: id
