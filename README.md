@@ -1,4 +1,4 @@
-![Build Status](https://travis-ci.org/Antoine07/Router.svg?branch=master)
+![Build Status](https://travis-ci.org/AdrianiBruss/miniRouter.svg?branch=master)
 # Router
 ## Requirements
 * PHP >=5.4
